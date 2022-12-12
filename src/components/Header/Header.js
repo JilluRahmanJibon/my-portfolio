@@ -21,6 +21,11 @@ const Header = () => {
                                 2000, // Waits 2s
                                 'Jillu Rahman Jibon', // Types 'Three' without deleting 'Two'
                                 3000,
+                                'Junior Full Stack Developer', // Types 'Three' without deleting 'Two'
+                                4000,
+                                'I have done 30+ projects', // Types 'Three' without deleting 'Two'
+                                5000,
+
                                 () => {
                                     console.log('Done typing!'); // Place optional callbacks anywhere in the array
                                 }

@@ -8,7 +8,7 @@ const AboutMe = () => {
                     <div className="mb-16 lg:max-w-lg lg:mb-0">
                         <div>
                             <h1 className='text-primary'>About</h1>
-                            <p className='font-semibold text-justify'>Hello! I'm Jillu Rahman Jibon, a passionate software engineer. I develop web applications, mobile applications, and desktop applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Computer Science Engineering from Chandigarh University at Punjab, India in 2020. I am available for any kind of job opportunity that suits my interests.</p>
+                            <p className='font-semibold text-justify'>Hello! I'm Jillu Rahman Jibon, a passionate Junior Full Stack Web Developer. I develop web applications, mobile applications, and desktop applications. My core skill is based on JavaScript and I love to do most things using JavaScript. I love to make the web more open to the world. I have learned programming from programming hero. I am available for any kind of job opportunity that suits my interests.</p>
                        </div>
                         <div className="flex flex-col gap-2 items-center mt-3 md:flex-row">
                             <a
