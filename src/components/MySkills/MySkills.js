@@ -13,7 +13,7 @@ const MySkills = () => {
     return (
         <div id='skills' className='pt-8'>
             <div className='mx-auto w-4/5 my-5'>
-                <h1>Skills </h1>
+                <h1 className='text-primary'>Skills </h1>
                 <div className='grid sm:grid-cols-2 gap-6'>
                     {
                         webSkills.map((skill, idx) => <div key={idx} className='bg-gray-800 sm:px-4 px-2 rounded-md'>

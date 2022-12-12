@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../Assests/logo.png'
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -6,7 +7,7 @@ const Navbar = () => {
         <React.Fragment>
             <li>
                 <a
-                    href="#about"
+                    href="/#about"
                     aria-label="About"
                     title="About"
                     className="font-medium tracking-wide md:text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -16,7 +17,7 @@ const Navbar = () => {
             </li>
             <li>
                 <a
-                    href="#service"
+                    href="/#service"
                     aria-label="Service"
                     title="Service"
                     className="font-medium tracking-wide md:text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -37,7 +38,7 @@ const Navbar = () => {
            
             <li>
                 <a
-                    href="#projects"
+                    href="/#projects"
                     aria-label="Project"
                     title="Project"
                     className="font-medium tracking-wide md:text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -46,18 +47,18 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a
-                    href="/"
+                <Link
+                    to='/blog'
                     aria-label="Blog"
                     title="Blog"
                     className="font-medium tracking-wide md:text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
                     BLOG
-                </a>
+                </Link>
             </li>
             <li>
                 <a
-                    href="#contact"
+                    href="/#contact"
                     aria-label="Contact"
                     title="Contact"
                     className="font-medium tracking-wide md:text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -75,14 +76,14 @@ const Navbar = () => {
             <div className="bg-secondary">
                 <div className="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-20 lg:px-8">
                     <div className="relative flex items-center justify-between">
-                        <a
-                            href="/"
+                        <Link
+                            to='/'
                             aria-label="Home"
                             title="Home"
                             className="inline-flex items-center"
                         >
                             <img src={logo} className='rounded-full w-12' alt="" />
-                        </a>
+                        </Link>
                         <div className='flex  gap-4'>
                             <ul className="flex items-center hidden space-x-8 md:flex">
                                 {menuItems}
@@ -127,14 +128,14 @@ const Navbar = () => {
                                     <div className="p-5 bg-white border rounded shadow-sm">
                                         <div className="flex items-center justify-between mb-4">
                                             <div>
-                                                <a
-                                                    href="/"
+                                                <Link
+                                                    to='/'
                                                     aria-label="Home"
                                                     title="Home"
                                                     className="inline-flex items-center"
                                                 >
                                                     <img src={logo} className='w-14' alt="" />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div>
                                                 <button
