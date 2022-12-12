@@ -1,0 +1,43 @@
+import React from 'react';
+import Jibon from '../../Assests/aboutPicture.jpg'
+const AboutMe = () => {
+    return (
+        <div id='about' className='pt-8'>
+            <div className="relative px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+                <div className="max-w-xl mx-auto lg:max-w-screen-xl">
+                    <div className="mb-16 lg:max-w-lg lg:mb-0">
+                        <div>
+                            <p className='font-semibold text-justify'>Hello! I'm Jillu Rahman Jibon, a passionate software engineer. I develop web applications, mobile applications, and desktop applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Computer Science Engineering from Chandigarh University at Punjab, India in 2020. I am available for any kind of job opportunity that suits my interests.</p>
+                       </div>
+                        <div className="flex flex-col gap-2 items-center mt-3 md:flex-row">
+                            <a
+                                target='_blank' rel="noopener noreferrer" href='https://github.com/JilluRahmanJibon/JilluRahmanJibon/raw/main/assets/MyResume.pdf' 
+                                className="btn btn-primary  w-full sm:w-auto px-6 "
+                            >
+                                Get Resume
+                            </a>
+                            <a
+                                href="#skills"
+                                aria-label=""
+                                className=" btn-outline btn-primary btn  w-full sm:w-auto px-6 "
+                            >
+                               MY Skills 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
+                    <div className='g-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500'>
+                        <img
+                            src={Jibon}
+                            className="w-80"
+                            alt=""
+                        />
+                   </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default AboutMe;
